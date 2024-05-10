@@ -1,3 +1,3 @@
 # DistillNerf
 
-Demos and code coming soon! Stay tuned!
+Demos and Code Coming Soon! Stay Tuned!
