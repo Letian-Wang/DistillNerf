@@ -16,23 +16,6 @@ DistillNeRF is a generalizable model for 3D scene representation, self-supervise
     <img src="assets/ours.gif" width="800">
 </div>
 
-<!-- <div align="center">
-    <a href="assets/ours.gif"><img src="assets/ours.gif" alt="GIF 1" width="100"/></a>
-    <a href="assets/ours.gif"><img src="assets/ours.gif" alt="GIF 2" width="100"/></a>
-    <a href="assets/ours.gif"><img src="assets/ours.gif" alt="GIF 3" width="100"/></a>
-</div>
-
-- [View GIF 1 - Description](assets/ours.gif)
-- [View GIF 2 - Description](assets/ours.gif)
-- [View GIF 3 - Description](assets/ours.gif)
-
-<div align="center">
-    <img src="assets/ours.gif" width="300"/>
-    <img src="assets/ours.gif" width="300"/>
-    <img src="assets/ours.gif" width="300"/>
-</div> -->
-
-
 Given single-frame multi-view cameras as input and without test-time per-scene optimization, DistillNeRF can reconstruct RGB images (row 2), estimate depth (row 3), render foundation model features (rows 4, 5) which enables open-vocabulary text queries (rows 6, 7, 8), and predict binary and semantic occupancy in zero shot (rows 9, 10).
 
 ## Comparison with SOTA methods
