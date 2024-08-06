@@ -59,18 +59,18 @@ python tools/create_data.py nuscenes --root-path ./data/nuscenes --out-dir ./dat
 
 1. **Download Sky Masks**
 
-Sky masks help in addressing the ill-defined depth for sky. Download the sky masks from the provided Google Drive link (link coming soon after rebuttal for anonymous purpose) and unzip them in the `data/nuscenes/` directory.
+Sky masks help in addressing the ill-defined depth for sky. Download the sky masks from the provided Google Drive link (link temporarily removed for anonymous purposes) and unzip them in the `data/nuscenes/` directory.
 
 1. **Prepare depth images for distillation**
    
    In this paper, we train offline per-scene NeRF, render depth images and save them to the `data/nuscenes/` directory. We'll release the depth images used in our paper soon. 
    
    In this repo, we also prepare some temporary data, so that at least you can run through the code. 
-   To do that, download this Temporary File (link coming soon after rebuttal for anonymous purpose) and place it at the root directory of the repo. We have changed the `SKIP_MISSING` parameter in the dataset config (e.g. `project.configs.datasets.dataset_config.py`) to be True, so that the dataloader will load these temporary data files. When you start to train your model, turn `SKIP_MISSING` to be False, to avid data mis-load.
+   To do that, download this Temporary File (link temporarily removed for anonymous purposes) and place it at the root directory of the repo. We have changed the `SKIP_MISSING` parameter in the dataset config (e.g. `project.configs.datasets.dataset_config.py`) to be True, so that the dataloader will load these temporary data files. When you start to train your model, turn `SKIP_MISSING` to be False, to avid data mis-load.
 
 2. **Download some auxiliary models**
 
-   Download Auxiliary Models (link coming soon after rebuttal for anonymous purpose) used during training the model (e.g. semantic segmentation for sky masks online generation)
+   Download Auxiliary Models (link temporarily removed for anonymous purposes) used during training the model (e.g. semantic segmentation for sky masks online generation)
 
 Once done, you're all set to integrate and use the NuScenes dataset in your project!
 
