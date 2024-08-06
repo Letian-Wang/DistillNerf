@@ -1,0 +1,21 @@
+numpy==1.23.5 # Need this version for numba==0.53.0 compatibility.
+tqdm
+numba==0.53.0
+lyft-dataset-sdk
+matplotlib
+pandas
+seaborn
+
+
+torch==1.13.1+cu161 --extra-index-url https://download.pytorch.org/whl/cu16.1
+torchvision==0.14.1+cu161
+lpips
+efficientnet_pytorch
+einops
+wandb
+
+# Development
+black
+isort
+pytest
+pytest-xdist
