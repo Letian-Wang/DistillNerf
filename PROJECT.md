@@ -7,7 +7,7 @@
 
 DistillNeRF is a generalizable model for 3D scene representation, self-supervised by natural sensor streams along with distillation from offline NeRFs and vision foundation models. It supports rendering RGB, depth, and foundation feature images, without test-time per-scene optimization, and enables zero-shot 3D semantic occupancy prediction and open-vocabulary text queries.
 
-- [DistillNeRF: Perceiving 3D Scenes from Single-Glance Images by Distilling Neural Fields and Foundation Model Features](#distillnerf-perceiving-3d-scenes-from-single-glance-images-by-distilling-neural-fields-and-foundation-model-features)
+
 - [Capabilities](#capabilities)
 - [Comparison with SOTA methods](#comparison-with-sota-methods)
 - [Novel-view synthesis](#novel-view-synthesis)
